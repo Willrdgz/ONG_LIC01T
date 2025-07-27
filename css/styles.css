@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+/* Estilos generales */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #F4FFF4;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Encabezado */
+header {
+  background-color: #AAF77E;
+}
+
+#titulo {
+  font-size: 3rem;
+  margin: 0;
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Logo */
+#logo {
+  max-width: 200px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.logo{
+  text-align: center;
+}
+/* Menú */
+.navbar-nav .nav-link {
+  padding: 0.5rem 0.5rem;
+  font-weight: 500;
+  color: #2a2a2a;
+}
+
+.navbar-nav .nav-link:hover {
+  text-decoration: underline;
+}
+
+/* Misión y visión */
+.mision-vision {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 1rem;
+  text-align: justify;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* Valores */
+#valores {
+  background-color: #57C27C;
+  border-radius: 20px;
+  padding: 2rem;
+}
+
+#valores li {
+  list-style: none;
+  padding: 0.5rem 0;
+}
+
+.valores-img {
+  max-height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Proyectos */
+.card-proyecto .card {
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.2s;
+  text-align: center;
+}
+.card-proyecto:hover {
+  transform: translateY(-5px);
+}
+.proyecto-img {
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 250px;
+  width: 75%;
+  border-radius: 10px;
+}
+
+/* Cartas de colaboración */
+.card {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 1rem 2rem;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.card:hover{
+  transform: translateY(-5px);
+}
+.card-img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  margin: 1rem auto;
+  background-color: #57C27C;
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+
+/* Footer */
+footer {
+  background-color: #AAF77E;
+  font-size: 0.9rem;
+  padding: 2rem 1rem;
+  color: #000;
+}
+footer a {
+  color: #333;
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+
+@media(max-width: 768px){
+  #logo{
+    display: flex;
+
+    justify-content: flex-start;
+    max-height: 90px;
+  }
+
+  #titulo{
+    display: none;
+  }
+
+  .titulo{
+    display: none;
+  }
+
+
+}
+
+
